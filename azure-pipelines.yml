@@ -25,4 +25,4 @@ steps:
     script: |
       # Write your PowerShell commands here.
       
-      Write-Host "Hello World"
+      Write-Host "Hello World - ${env:MYVARIABLE}"
